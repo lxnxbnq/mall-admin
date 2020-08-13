@@ -12,7 +12,7 @@ const port = process.env.PORT || 3000;
 const rootRouter = new Router({
   prefix: '/api'
 });
-const a = 1;
+
 createConnection({
   type: "mysql",
   host: "localhost",
